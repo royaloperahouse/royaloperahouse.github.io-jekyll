@@ -7,7 +7,7 @@ A blog about digital projects at the Royal Opera House, administered as a [Jekyl
 - `_config.yml` is the Jekyll configuration.
 - `index.md` is the contents of the site's homepage.
 - Files in `_posts/` are listed on the homepage from newest to oldest.
-- Files in `images/` can be used as images in posts.
+- Files in `_images/` can be used as images in posts.
 
 ## Publishing notes
 
@@ -22,5 +22,5 @@ The [live site](https://royaloperahouse.github.io/) is automatically updated whe
 
 ### Adding images
 
-1. In GitHub, upload the image file in the `images/` folder.
-2. Reference the image with the correct path and file name from your post: `![Image alt text](/images/my-file-name.png)`.
+1. In GitHub, upload the image file in the `_images/` folder.
+2. Reference the image with the correct path and file name from your post: `![Image alt text](/_images/my-file-name.png)`.
